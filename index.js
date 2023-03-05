@@ -81,7 +81,7 @@ class SidebarItem extends React.Component {
                                                 .map(c => c.charCodeAt(0).toString(16).padStart(2, "0"))
                                                 .join("")}`,
                                             width: "100%",
-                                            //height: '191512515px',
+                                            height: '99999px',
                                           // height: "100%",
                                             style: {
                                                 display: 'block',
@@ -91,7 +91,7 @@ class SidebarItem extends React.Component {
                                             frameBorder:"0",
                                             scrolling:"no",
                                             onLoad: (e) => {
-                                                document.getElementById('iframe_id').style.height = document.getElementById('iframe_id').contentWindow.document.body.scrollHeight + 'px';
+                                                //document.getElementById('iframe_id').style.height = document.getElementById('iframe_id').contentWindow.document.body.scrollHeight + 'px';
                                             }
                                         }
                                     ));
